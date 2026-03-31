@@ -1,92 +1,544 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Mon Portfolio</title>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>E5 Tevin Saun-Yang</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
 
-<style>
-body{
-    font-family: Arial, sans-serif;
-    margin:0;
-    /* je laisse les sections vides pour remplir plus tard */
-    background:#f5f5f5;
-}
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-header{
-    background:#222;
-    color:white;
-    padding:20px;
-    text-align:center;
-}
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
 
-nav{
-    background:#333;
-    padding:10px;
-    text-align:center;
-}
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-nav a{
-    color:white;
-    margin:0 15px;
-    text-decoration:none;
-    font-weight:bold;
-}
-
-section{
-    padding:40px;
-    max-width:1000px;
-    margin:auto;
-}
-
-.projects{
-    display:grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
-    gap:20px;
-}
-
-.project{
-    background:white;
-    padding:20px;
-    border-radius:10px;
-    box-shadow:0 0 10px rgba(0,0,0,0.1);
-}
-
-footer{
-    background:#222;
-    color:white;
-    text-align:center;
-    padding:20px;
-    margin-top:40px;
-}
-</style>
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body class="index-page">
 
-<header>
-<h1>Mon Portfolio</h1>
-</header>
+  <header id="header" class="header dark-background d-flex flex-column justify-content-between">
+    <i class="header-toggle d-xl-none bi bi-list"></i>
 
-<nav>
-<a href="#about">À propos</a>
-<a href="#projects">Projets</a>
-<a href="#contact">Contact</a>
-</nav>
+    <div class="header-top">
+      <div class="profile-img">
+        <img src="assets/img/face.png" alt="" class="img-fluid">
+      </div>
 
-<section id="about">
-</section>
+      <a href="index.html" class="logo d-flex align-items-center justify-content-center">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">Tevin Saun-Yang</h1>
+      </a>
 
-<section id="projects">
-</section>
+    </div>
 
-<section id="contact">
-<h2>Contact</h2>
-</section>
+    <nav id="navmenu" class="navmenu">
+      <ul>
+        <li><a href="#hero" class="active"><i class="bi bi-house navicon"></i>Acceuil</a></li>
+        <li><a href="#about"><i class="bi bi-person navicon"></i>À Propos</a></li>
+        <li><a href="#resume"><i class="bi bi-file-earmark-text navicon"></i> Parcours</a></li>
+        <li><a href="#portfolio"><i class="bi bi-images navicon"></i>Projets</a></li>
+        <li><a href="#services"><i class="bi bi-hdd-stack navicon"></i>Veille</a></li>
+        <li><a href="#contact"><i class="bi bi-envelope navicon"></i>Contact</a></li>
+      </ul>
+    </nav>
+  </header>
 
-<footer>
-</footer>
+  <main class="main">
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-center">
+          <div class="col-lg-6 order-2 order-lg-1">
+            <div class="hero-content">
+              <h1 data-aos="fade-up" data-aos-delay="200">
+                Tevin Saun-Yang
+                
+              </h1>
+              <h1>
+              <span class="accent-text">BTS SIO SISR</span>
+              </h1>
+              <p class="hero-description" data-aos="fade-up" data-aos-delay="300">
+                
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Hero Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row justify-content-center">
+          <div class="col-lg-12">
+            <div class="container section-title" data-aos="fade-up">
+              <h2>À Propos</h2>
+            </div>
+
+
+                <div class="col-lg-8" data-aos="fade-left" data-aos-delay="250">
+                  <div class="content-area">
+
+                    <div class="story-block">
+                      <p class="lead-text">Depuis mon plus jeune âge, je suis passionné par l'informatique. Aujourd’hui, je me spécialise dans les solutions d’infrastructure réseaux et la cybersécurité. Mon objectif est de devenir un expert en sécurité des réseaux et de participer à la création d’environnements informatiques sûrs, fiables et résilients.</p>
+
+                      <p>Le BTS Services Informatiques aux Organisations SISR (Solutions d’Infrastructure, Systèmes et Réseaux) est une formation de niveau Bac+2 centrée sur l’administration des réseaux et la gestion des systèmes informatiques. Il prépare aux métiers de technicien réseau, administrateur systèmes et responsable infrastructure.</p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- Resume Section -->
+    <section id="resume" class="resume section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>CV</h2>
+        <p>Actuellement en deuxième année de BTS SIO SISR</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row align-items-start">
+          <div class="col-lg-5" data-aos="fade-right" data-aos-delay="200">
+            <div class="professional-journey">
+              <div class="section-intro">
+                <div class="icon-wrapper">
+                  <i class="bi bi-briefcase-fill"></i>
+                </div>
+                <h2>Experiences Professionel</h2>
+              </div>
+
+              <div class="experience-timeline">
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="300">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <div class="position-meta">
+                      <span class="timeline-year">2026</span>
+                    </div>
+                    <h3>Stage 2ème année de BTS SIO</h3>
+                    <h4>IDKIDS, Roubaix</h4>
+                    <p>- Utilisation de plusieurs systèmes de gestion d’entrepôt (WMS Manhattan, Nodhos, UR, Harmonie, Centric PLM) pour le suivi des stocks, des commandes et des flux logistiques</p>
+                    <p>- Intervention sur la gestion des stocks : transferts entre magasins, remise à zéro des stocks, suivi des inventaires et résolution d’incidents liés aux flux marchand</p>
+                    <p>- Traitement des fichiers en erreur dans l'application métier (UR), analyse des causes et correction via bases de données SQL</p>
+                  </div>
+                </div>
+
+                <div class="timeline-item" data-aos="fade-up" data-aos-delay="350">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <div class="position-meta">
+                      <span class="timeline-year">2025</span>
+                    </div>
+                    <h3>Stage 1ère année de BTS SIO</h3>
+                    <h4>IDKIDS, Roubaix</h4>
+                    <p>- Installation d'un routeur à distance / gestion de pannes routeurs simple</p>
+                    <p>- Configuration et intégration en réseau de terminaux mobiles pour les entrepôts.</p>
+                    <p>- Inventaire et gestion du parc de terminaux mobiles.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7" data-aos="fade-left" data-aos-delay="200">
+            <div class="education-skills">
+              <div class="section-intro">
+                <div class="icon-wrapper">
+                  <i class="bi bi-mortarboard-fill"></i>
+                </div>
+                <h2>Parcours Scolaire</h2>
+              </div>
+
+              <div class="education-grid">
+                <div class="education-card primary" data-aos="zoom-in" data-aos-delay="300">
+                  <div class="education-header">
+                    <div class="degree-icon">
+                      <i class="bi bi-award"></i>
+                    </div>
+                    <div class="degree-info">
+                      <h3>BTS SIO (SISR)</h3>
+                      <p class="institution">Saint Rémi, Roubaix</p>
+                      <span class="graduation-year">2024-2026</span>
+                    </div>
+                  </div>
+                  <div class="education-details">
+                  </div>
+                </div>
+
+                <div class="education-card" data-aos="zoom-in" data-aos-delay="350">
+                  <div class="education-header">
+                    <div class="degree-icon">
+                      <i class="bi bi-award"></i>
+                    </div>
+                    <div class="degree-info">
+                      <h3>Baccalauréat Général</h3>
+                      <p class="institution">Sacré-Coeur,Tourcoing</p>
+                      <span class="graduation-year">2021-2024</span>
+                    </div>
+                  </div>
+                  <div class="education-details">
+                    <p>Spécialités Maths et NSI</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Resume Section -->
+
+    <!-- Projet -->
+    <section id="portfolio" class="portfolio section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Projets</h2>
+        <p>Projets réalisés au cours de la formation.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="isotope-layout" data-default-filter="*" data-layout="masonry" data-sort="original-order">
+          <div class="row gy-5 portfolio-container isotope-container" data-aos="fade-up" data-aos-delay="300">
+
+            <div class="col-lg-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/pdf.png" class="img-fluid" alt="Brand Identity Project" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/Projets/AP3M1.pdf" class="action-btn details-btn" title="View Project"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">AP3M1</span>
+                  </div>
+                  <h3 class="portfolio-title">CREANET — Infrastructure M2L</h3>
+                  <p class="portfolio-description">Recréation de l'infrastructure M2L en labo (AD, VLAN, srv FTP & WEB, DMZ)</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/pdf.png" class="img-fluid" alt="Brand Identity Project" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/Projets/AP3M2.pdf" class="action-btn details-btn" title="View Project"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                    <span class="portfolio-category">AP3M2</span>
+                  </div>
+                  <h3 class="portfolio-title">OpenDATASEC — Sauvegarde</h3>
+                  <p class="portfolio-description">Solution de sauvegarde des postes utilisateurs, rclone</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+            <div class="col-lg-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/pdf.png" class="img-fluid" alt="Brand Identity Project" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/Projets/TP-MITM.pdf" class="action-btn details-btn" title="View Project"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                  </div>
+                  <h3 class="portfolio-title">TP - MITM</h3>
+                  <p class="portfolio-description">Simulation d’une attaque Man-in-the-Middle (MITM) via ARP spoofing.</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+            <div class="col-lg-6 portfolio-item isotope-item filter-branding">
+              <div class="portfolio-card">
+                <div class="portfolio-image">
+                  <img src="assets/img/pdf.png" class="img-fluid" alt="Brand Identity Project" loading="lazy">
+                  <div class="portfolio-overlay">
+                    <div class="portfolio-actions">
+                      <a href="assets/Projets/TP-snort.pdf" class="action-btn details-btn" title="View Project"><i class="bi bi-arrow-up-right"></i></a>
+                    </div>
+                  </div>
+                </div>
+                <div class="portfolio-content">
+                  <div class="portfolio-meta">
+                  </div>
+                  <h3 class="portfolio-title">TP - SNORT</h3>
+                  <p class="portfolio-description">Mise en place et configuration d’un IDS/IPS avec Snort sur pfSense</p>
+                </div>
+              </div>
+            </div><!-- End Portfolio Item -->
+
+
+          </div><!-- End Portfolio Container -->
+
+        </div>
+
+      </div>
+
+    </section><!-- /Projet -->
+
+    <!-- Services Section -->
+    <section id="services" class="services section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Veille</h2>
+        <p>Veille technologique sur le cloud</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row g-5">
+
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="200">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-server"></i>
+              </div>
+              <div class="service-content">
+                <h3><a href="https://www.techtarget.com/searchcloudcomputing/tip/Explore-the-pros-and-cons-of-cloud-computing">Avantages du cloud computing</a></h3>
+                <p>Présentation des principaux bénéfices du cloud :</p>
+                <a href="https://www.techtarget.com/searchcloudcomputing/tip/Explore-the-pros-and-cons-of-cloud-computing" class="read-more">
+                  <span>Lire l'article</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="250">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-code-slash"></i>
+              </div>
+              <div class="service-content">
+                <h3><a href="https://www.coursera.org/articles/aws-vs-azure-vs-google-cloud">Comparaison AWS / Azure / Google Cloud,</a></h3>
+                <p>Analyse comparative des trois principaux fournisseurs cloud :</p>
+                <a href="https://www.coursera.org/articles/aws-vs-azure-vs-google-cloud" class="read-more">
+                  <span>Lire l'article</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-right" data-aos-delay="300">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-server"></i>
+              </div>
+              <div class="service-content">
+                <h3><a href="https://cloud.google.com/learn/paas-vs-iaas-vs-saas?hl=fr">Différences entre PaaS, IaaS, SaaS</a></h3>
+                <p>Explication des trois modèles principaux de cloud computing :</p>
+                <a href="https://cloud.google.com/learn/paas-vs-iaas-vs-saas?hl=fr" class="read-more">
+                  <span>Lire l'article</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left" data-aos-delay="350">
+            <div class="service-item">
+              <div class="service-icon">
+                <i class="bi bi-clipboard"></i>
+              </div>
+              <div class="service-content">
+                <h3><a href="service-details.html">Tableau de Compétences</a></h3>
+                
+                <a href="service-details.html" class="read-more">
+                  <span>Voir Tableau de Compétences</span>
+                  <i class="bi bi-arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Services Section -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <h2>Contact</h2>
+        
+      </div><!-- End Section Title -->
+
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5">
+
+            <div class="info-item">
+              <div class="info-icon">
+                <i class="bi bi-chat-dots"></i>
+              </div>
+              <div class="info-content">
+                <h4>Contact</h4>
+              </div>
+            </div>
+
+            <div class="contact-details">
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="bi bi-envelope-open"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Email</span>
+                  <span class="detail-value">tev.sy.pro@gmail.com</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="bi bi-telephone-outbound"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Tél :</span>
+                  <span class="detail-value">07 67 25 91 06</span>
+                </div>
+              </div>
+
+              <div class="detail-item">
+                <div class="detail-icon">
+                  <i class="bi bi-geo-alt-fill"></i>
+                </div>
+                <div class="detail-content">
+                  <span class="detail-label">Ville</span>
+                  <span class="detail-value">Tourcoing</span>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-7">
+            <div class="form-wrapper">
+              <div class="form-header">
+                <h3>Contactez-moi</h3>
+              </div>
+
+              <form action="forms/contact.php" method="post" class="php-email-form">
+
+                <div class="row">
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label>Nom</label>
+                      <input type="text" name="name" required="">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group">
+                      <label>Email</label>
+                      <input type="email" name="email" required="">
+                    </div>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label>Sujet</label>
+                  <input type="text" name="subject" required="">
+                </div>
+
+                <div class="form-group">
+                  <label for="projectMessage">Message</label>
+                  <textarea name="message" id="projectMessage" rows="5" required=""></textarea>
+                </div>
+
+                <div class="my-3">
+                  <div class="loading">Loading</div>
+                  <div class="error-message"></div>
+                  <div class="sent-message">Your message has been sent. Thank you!</div>
+                </div>
+
+                <button type="submit" class="submit-btn">
+                  <span>Envoyer</span>
+                  <i class="bi bi-arrow-right"></i>
+                </button>
+
+              </form>
+
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+
+    </section><!-- /Contact Section -->
+
+  </main>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
 
 </body>
+
 </html>
